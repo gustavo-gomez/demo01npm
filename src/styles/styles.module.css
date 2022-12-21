@@ -1,0 +1,68 @@
+.rangeBarContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.currentLevel {
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  width: fit-content;
+}
+
+.rangeBar100 {
+  width: 100%;
+  height: 8px;
+  background: #DCE2E9;
+  border-radius: 100px;
+  z-index: 1;
+  position: relative;
+}
+
+.invalid-ranges {
+  text-align: center;
+}
+
+.rangeValues {
+  margin-top: 2px;
+  width: 100%;
+  position: relative;
+}
+
+.rangeValues span:first-child{
+  position: relative;
+}
+
+.rangeValues span:nth-child(2){
+  position: absolute;
+}
+
+.rangeValue {
+  background: -webkit-gradient(linear, right top, left top, color-stop(-1.81%, #5393DB), color-stop(102.26%, #00619F));
+  background: linear-gradient(270deg, #5393DB -1.81%, #00619F 102.26%);
+  border-radius: 100px;
+  z-index: 2;
+  height: 100%;
+  position: relative;
+}
+
+.rangeLevel {
+  width: 10px;
+  height: 100%;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  z-index: 4;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.level {
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  background: black;
+}
