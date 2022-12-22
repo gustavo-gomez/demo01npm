@@ -31,7 +31,7 @@
 }
 
 .rangeValues span:first-child{
-  position: relative;
+  position: absolute;
 }
 
 .rangeValues span:nth-child(2){
